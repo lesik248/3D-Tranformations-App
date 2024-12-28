@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background: #D8C3A5;
+}
+
+canvas {
+    display: block;
+}
+
+#gui {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(85, 73, 61, 0.8) !important;
+}
+
+.dg.main .close-button {
+    background-color: #8E8D8A !important;
+}
+
+.dg.main .close-button:hover {
+    background-color: #E98074 !important;
+}
+
+#matrixDisplay {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(46, 149, 101, 0.9);
+    color: #EAE7DC;
+    padding: 15px;
+    font-family: 'Courier New', monospace;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.projectionView {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: rgba(85, 73, 61, 0.1);
+    border: 2px solid #3b9a3f; /* Зеленая рамочка */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+#topView {
+    top: 20px;
+    left: 20px;
+}
+
+#frontView {
+    top: 240px;
+    left: 20px;
+}
+
+#sideView {
+    top: 460px;
+    left: 20px;
+}
+
+.viewLabel {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #2C3531;
+    background: rgba(234, 231, 220, 0.9);
+    padding: 5px 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+
+.axis-color-info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #2C3531;
+    font-size: 14px;
+    background: rgba(234, 231, 220, 0.9);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
